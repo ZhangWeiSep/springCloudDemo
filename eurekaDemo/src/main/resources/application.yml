@@ -1,0 +1,20 @@
+server:
+  port: 9001
+eureka:
+  instance:
+    hostname: localhost
+  client:
+#   开启不注册server服务本身
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+#    关闭自我保护
+#    enable-self-preservation: false
+#    清理间隔
+#    eviction-interval-timer-in-ms: 60000
+
+spring:
+  application:
+    name: eureka-server
