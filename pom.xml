@@ -68,8 +68,8 @@
     <module>ribbonDemo</module>
     <!-- feign调用服务  -->
     <module>feignDemo</module>
-    <!-- zull服务网关  -->
-    <module>zullDemo</module>
+    <!-- zuul服务网关  -->
+    <module>zuulDemo</module>
   </modules>
 
 </project>
