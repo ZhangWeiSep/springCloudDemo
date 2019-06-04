@@ -11,6 +11,7 @@
 
   <groupId>spring.cloud.eureka.demo</groupId>
   <artifactId>eurekaDemo</artifactId>
+  <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>eurekaDemo</name>

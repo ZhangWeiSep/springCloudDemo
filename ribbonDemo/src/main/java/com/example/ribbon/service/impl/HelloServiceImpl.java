@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class HelloServiceImpl implements HelloService {
 
-    RestTemplate restTemplate;
+    private RestTemplate restTemplate;
 
     private final String EUREKACLIENT = "http://EUREKA-CLIENT";
 
